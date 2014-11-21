@@ -4,7 +4,8 @@
 	<link rel ="stylesheet" type="text/css"
 	href="/champs/champpage.css">
 	<?php include '/php-riot-api.php' ?>
-	<?php $instance = new riotapi($region); ?>
+	<?php $region = 'na' 
+		$instance = new riotapi($region); ?>
 	<?php $champdata = getChampion() 
 		$champdata = $champdata["data"]["Galio"] ?></head>
 <body>
