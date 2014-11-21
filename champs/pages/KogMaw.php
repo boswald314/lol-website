@@ -6,7 +6,7 @@
 	<?php include '/var/www/php-riot-api.php'; ?>
 	<?php $region = 'na'; 
 		$instance = new riotapi($region); ?>
-	<?php $champdata = $instance->getStatic(champion); 
+	<?php $champdata = $instance->getStatic($call='champion'); 
 		$champdata = $champdata["data"]["KogMaw"]; ?>
 </head>
 <body>
