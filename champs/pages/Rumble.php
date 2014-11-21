@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<link rel ="stylesheet" type="text/css"
+ 	<link rel ="stylesheet" type="text/css"
 	href="/champs/champpage.css">
 	<?php include '/var/www/php-riot-api.php'; ?>
 	<?php $region = 'na'; 
