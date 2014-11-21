@@ -6,7 +6,7 @@
 	<?php include '/var/www/php-riot-api.php'; ?>
 	<?php $region = 'na'; 
 		$instance = new riotapi($region); ?>
-	<?php $champdata = $instance->getChampion(); 
+	<?php $champdata = $instance->getStatic(); 
 		$champdata = $champdata["data"]["Karthus"]; ?>
 </head>
 <body>
@@ -14,6 +14,6 @@
 		<img src="/champs/loading/Karthus_0.jpg">
 	</div>
 	<div class="champ_lore">
-		<?php echo $champdata["lore"]; ?> 
+		<?php var_dump($champdata["lore"]); ?> 
 	</div>
 </html>
