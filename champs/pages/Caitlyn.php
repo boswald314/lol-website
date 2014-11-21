@@ -6,8 +6,7 @@
 	<?php include '/var/www/php-riot-api.php'; ?>
 	<?php $region = 'na'; 
 		$instance = new riotapi($region); ?>
-	<?php $champdata = $instance->getStatic($call='champion'); 
-		$champdata = $champdata["data"]["Caitlyn"]; ?>
+	<?php $champdata = $instance->getStatic($call='champion', $id=51?champData=all); ?> 
 </head>
 <body>
 	<div class="champ_pic">
