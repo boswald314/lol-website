@@ -87,7 +87,7 @@ class riotapi {
 
 	//performs a static call. Not counted in rate limit.
 	public function getStatic($call=null, $id=null) {
-		$call = self::API_URL_STATIC_1_2 . $call . "/champion" . $id;
+		$call = self::API_URL_STATIC_1_2 . $call . "/" . $id;
 		
 		return $this->request($call, false, true);
 	}
