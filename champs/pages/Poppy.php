@@ -3,7 +3,7 @@
 <head>
 	<link rel ="stylesheet" type="text/css"
 	href="/champs/champpage.css">
-	<?php include '/php-riot-api.php' ?>
+	<?php include '/var/www/php-riot-api.php' ?>
 	<?php $region = 'na' 
 		$instance = new riotapi($region); ?>
 	<?php $champdata = getChampion() 
@@ -14,6 +14,6 @@
 		<img src="/champs/loading/Poppy_0.jpg">
 	</div>
 	<div class="champ_lore">
-		<?php echo $champdata["lore"] ?>
+		<?php echo $champdata["lore"] ?> 
 	</div>
 </html>
