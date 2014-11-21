@@ -89,6 +89,9 @@ class riotapi {
 	public function getStatic($call=null, $id=null) {
 		$call = self::API_URL_STATIC_1_2 . $call . "/" . $id;
 		
+		//add API URL to the call
+		$call = self::API_URL_2_4 . $call;
+		
 		return $this->request($call, false, true);
 	}
 
