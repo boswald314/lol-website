@@ -2,10 +2,16 @@
 <html>
 <head>
 	<link rel ="stylesheet" type="text/css"
-	href="/champs/champpage.css"
-</head>
+	href="/champs/champpage.css">
+	<?php include '/php-riot-api.php' ?>
+	<?php $instance = new riotapi($region); ?>
+	<?php $champdata = getChampion() 
+		$champdata = $champdata["data"]["Velkoz"] ?></head>
 <body>
 	<div class="champ_pic">
 		<img src="/champs/loading/Velkoz_0.jpg">
+	</div>
+	<div class="champ_lore">
+		<?php echo $champdata["lore"] ?>
 	</div>
 </html>
