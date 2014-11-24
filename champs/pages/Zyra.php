@@ -3,10 +3,11 @@
 <head>
  	<link rel ="stylesheet" type="text/css"
 	href="/champs/champpage.css">
-	<?php include '/var/www/php-riot-api.php'; ?>
-	<?php $region = 'na'; 
-		$instance = new riotapi($region); ?>
-	<?php $champdata = $instance->getStatic($call='champion', $id='143?champData=all'); ?> 
+	<?php $ch = curl_init('http://na.api.pvp.net/api/lol/static-data/na/v1.2/champion/143?champData=all&api_key=80a03926-6e55-4045-bf6f-692ec7007ca1');
+	curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+	$result = curl_exex($ch);
+	$champdata = json_decode($result, true);
+?>
 </head>
 <body>
 	<div class="champ_pic">
