@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
- 	<link rel ="stylesheet" type="text/css"
+ 	<meta charset="UTF-8">
+	<link rel ="stylesheet" type="text/css"
 	href="/champs/champpage.css">
 	<?php $ch = curl_init('http://na.api.pvp.net/api/lol/static-data/na/v1.2/champion/24?champData=all&api_key=80a03926-6e55-4045-bf6f-692ec7007ca1');
 	curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
