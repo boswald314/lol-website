@@ -9,6 +9,11 @@
 	$result = curl_exec($ch);
 	$champdata = json_decode($result, true);
 	?>
+
+	<div id="header">
+		<h1>My LoL Website</h1>
+		<h3>Your source for all things LoL</h3>
+	</div>
 </head>
 <body>
 	<h1 class="champ_name"><?php print($champdata["name"]); ?></h1>

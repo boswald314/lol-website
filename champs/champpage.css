@@ -4,3 +4,12 @@
 	-ms-box-sizing: border-box;
 	box-sizing: border-box;
 }
+
+#header{
+        background-color: black;
+        color: orange;
+        text-align: center;
+        font-family: Helvetica;
+        padding: 20px;
+        margin: 0;
+}
