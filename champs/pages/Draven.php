@@ -10,10 +10,12 @@
 	?>
 </head>
 <body>
+	<h1 class="champ_name"><?php print($champdata["name"]); ?></h1>
+	<h2 class="champ_title"><?php print($champdata["title"]); ?></h2>
 	<div class="champ_pic">
 		<img src="/champs/loading/Draven_0.jpg">
 	</div>
 	<div class="champ_lore">
-		<?php var_dump($champdata["lore"]); ?> 
+		<?php print($champdata["lore"]); ?> 
 	</div>
 </html>
