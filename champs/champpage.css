@@ -39,7 +39,7 @@ body {
 #champ_name {	
 	font-size: 60px;
 	color: red;
-	margin: 0px;
+	margin-bottom: 10px;
 }
 
 #champ_title {
