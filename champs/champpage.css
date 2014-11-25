@@ -54,10 +54,9 @@ body {
 #lore_box {
 	background-color: #A3A375;
 	margin-top: 175;
+	text-align: left;
 	height: 450;
 	width: 945;
-	position: relative;
-	top: -130;
 }
 
 #champ_tabs {
