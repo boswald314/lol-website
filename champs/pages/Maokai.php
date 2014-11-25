@@ -27,6 +27,7 @@
 			<img src="/champs/loading/Maokai_0.jpg">
 		</div>
 		<div id="champ_lore">
+			<h3>Lore:</h3>
 			<?php print($champdata["lore"]); ?> 
 		</div>
 	</div>
