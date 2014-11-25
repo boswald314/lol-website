@@ -6,15 +6,20 @@
 }
 
 #header{
-        background-color: black;
-        color: orange;
-        text-align: center;
-        font-family: Helvetica;
-        padding: 20px;
-        margin: 0;
+    background-color: black;
+    color: orange;
+    text-align: center;
+    font-family: Helvetica;
+    padding: 20px;
+    margin: 0;
 }
 
-#content{
-	display: -webkit-flex;
-	display: flex;
+#champ_pic {
+	float: right;
 }
+
+#champ_name {
+	background-color: black;
+	color: red;
+}
+
