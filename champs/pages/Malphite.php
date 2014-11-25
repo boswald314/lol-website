@@ -16,12 +16,14 @@
 	</div>
 </head>
 <body>
-	<h1 id="champ_name"><?php print($champdata["name"]); ?></h1>
-	<h2 id="champ_title"><?php print($champdata["title"]); ?></h2>
-	<div class="content" id="champ_pic">
-		<img src="/champs/loading/Malphite_0.jpg">
-	</div>
-	<div class="content" id="champ_lore">
-		<?php print($champdata["lore"]); ?> 
+	<div id="content">
+		<h1 id="champ_name"><?php print($champdata["name"]); ?></h1>
+		<h2 id="champ_title"><?php print($champdata["title"]); ?></h2>
+		<div id="champ_pic">
+			<img src="/champs/loading/Malphite_0.jpg">
+		</div>
+		<div id="champ_lore">
+			<?php print($champdata["lore"]); ?> 
+		</div>
 	</div>
 </html>
