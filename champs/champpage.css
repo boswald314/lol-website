@@ -34,6 +34,7 @@ body {
         width: 75%;
         margin: 5px 0px 0px;
         height: 80px;
+        float: left;
 }
 
 #champ_title {
@@ -42,4 +43,5 @@ body {
         width: 75%;
         margin: 0px;
         height: 40px;
+        float: left;
 }
