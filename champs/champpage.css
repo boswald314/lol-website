@@ -52,12 +52,12 @@ body {
 }
 
 #champ_lore {
-	background-color: white;
+	background-color: #A3A375;
 	font-size: 16px;
 	padding-right: 25px;
 	padding-top: 25px;	
 	padding-left: 25px;
-	height: 440px;
+	height: 435px;
 	width: 945px;
 	overflow: auto;
 }
