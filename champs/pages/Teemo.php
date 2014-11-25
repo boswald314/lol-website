@@ -26,7 +26,7 @@
 		</div>		<div id="champ_pic">
 			<img src="/champs/loading/Teemo_0.jpg">
 		</div>
-		<div id="lore_box" style="background-image: "../splash/Teemo_0.jpg">
+		<div id="lore_box">
 			<div id="champ_tabs">
 				<h3>Lore</h3>
 			</div>
