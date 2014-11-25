@@ -52,13 +52,11 @@ body {
 }
 
 #lore_box {
-	clear: right;
+	clear: left;
 	margin-right: 325px;
 }
 
 #champ_tabs {
-	background-color: blue;
-	height: 100px;
 }
 
 #champ_lore {
