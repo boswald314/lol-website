@@ -52,7 +52,6 @@ body {
 }
 
 #lore_box {
-	background-color: #A3A375;
 	margin-top: 175;
 	text-align: left;
 	height: 450;
@@ -68,6 +67,6 @@ body {
 	padding-right: 25px;
 	padding-top: 25px;	
 	padding-left: 25px;
-	height: 355px;
+	height: 350px;
 	overflow: auto;
 }
