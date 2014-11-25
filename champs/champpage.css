@@ -21,30 +21,27 @@ body {
 #champ_pic {
 	float: right;
 	position: relative;
-	top: -80px;
 }
 
 #champ_square {
 	float: left;
 	margin-right:5px;
 }
-
-#champ_name {
+#champ_header {
 	background-color: black;
-	color: red;
 	width: 65%;
-	margin: 0px;
-	margin-right: 19px;
-	height: 80px;
+	height: 120px;
 	float: left;
+	margin: 0px;
+	margin-bottom: 5px;
+
+}
+#champ_name {	
+	color: red;
+	margin: 0px;
 }
 
 #champ_title {
-	background-color: black;
 	color: yellow;
-	width: 65%;
 	margin: 0px;
-	margin-bottom: 5px;
-	height: 40px;
-	float: left;
 }
