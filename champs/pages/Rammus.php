@@ -26,9 +26,11 @@
 		</div>		<div id="champ_pic">
 			<img src="/champs/loading/Rammus_0.jpg">
 		</div>
-		<div id="champ_lore">
+		<div id="lore_box">
 			<h3>Lore:</h3>
-			<?php print($champdata["lore"]); ?> 
+			<div id="champ_lore">
+				<?php print($champdata["lore"]); ?> 
+			</div>
 		</div>
 	</div>
 </html>
