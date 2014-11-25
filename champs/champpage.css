@@ -20,7 +20,6 @@ body {
 
 #champ_pic {
 	float: right;
-	position: relative;
 }
 
 #champ_square {
@@ -48,6 +47,7 @@ body {
 	font-size: 24px;
 	color: yellow;
 	margin: 0px;
+	margin-bottom: 5px;
 	padding-left: 50px;
 }
 
