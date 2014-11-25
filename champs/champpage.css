@@ -56,4 +56,6 @@ body {
 	padding-right: 333px;
 	padding-top: 145px;	
 	padding-left: 25px;
+	margin-bottom: 560px;
+	overflow: scroll;
 }
