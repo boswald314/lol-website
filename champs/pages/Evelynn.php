@@ -27,7 +27,9 @@
 			<img src="/champs/loading/Evelynn_0.jpg">
 		</div>
 		<div id="lore_box">
-			<h3>Lore:</h3>
+			<div id="champ_tabs">
+				<p>Lore</p>
+			</div>
 			<div id="champ_lore">
 				<?php print($champdata["lore"]); ?> 
 			</div>
