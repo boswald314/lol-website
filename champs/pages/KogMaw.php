@@ -19,6 +19,9 @@
 	<div id="champ_info">
 		<h1 id="champ_name"><?php print($champdata["name"]); ?></h1>
 		<h2 id="champ_title"><?php print($champdata["title"]); ?></h2>
+		<div id="champ_square">
+			<img src="/champs/square/KogMaw.png">
+		</div>
 		<div id="champ_pic">
 			<img src="/champs/loading/KogMaw_0.jpg">
 		</div>
