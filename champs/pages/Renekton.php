@@ -16,7 +16,7 @@
 	</div>
 </head>
 <body>
-	<div id="content">
+	<div id="champ_info">
 		<h1 id="champ_name"><?php print($champdata["name"]); ?></h1>
 		<h2 id="champ_title"><?php print($champdata["title"]); ?></h2>
 		<div id="champ_pic">
