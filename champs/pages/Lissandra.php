@@ -20,9 +20,10 @@
 		<div id="champ_square">
 			<img src="/champs/square/Lissandra.png">
 		</div>
-		<h1 id="champ_name"><?php print($champdata["name"]); ?></h1>
-		<h2 id="champ_title"><?php print($champdata["title"]); ?></h2>
-		<div id="champ_pic">
+		<div id="champ_header">
+			<h1 id="champ_name"><?php print($champdata["name"]); ?></h1>
+			<h2 id="champ_title"><?php print($champdata["title"]); ?></h2>
+		</div>		<div id="champ_pic">
 			<img src="/champs/loading/Lissandra_0.jpg">
 		</div>
 		<div id="champ_lore">

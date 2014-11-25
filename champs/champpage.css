@@ -1,12 +1,12 @@
 *{
-        -webkit-box-sizing: border-box;
-        -moz-box-sizing: border-box;
-        -ms-box-sizing: border-box;
-        box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 body {
-        background-image: url("A6000000.png");
+	background-image: url("A6000000.png");
 }
 
 #header{
@@ -15,33 +15,36 @@ body {
     text-align: center;
     font-family: Helvetica;
     padding: 20px;
-    bottom: 10px;
+    margin-bottom: 10px;
 }
 
 #champ_pic {
-        clear: both;
-        float: right;
+	float: right;
+	position: relative;
+	top: -80px;
 }
 
 #champ_square {
-        float: left;
-        right: 5px;
+	float: left;
+	margin-right:5px;
 }
 
 #champ_name {
-        background-color: black;
-        color: red;
-        width: 75%;
-        margin: 5px 0px 0px;
-        height: 80px;
-        float: left;
+	background-color: black;
+	color: red;
+	width: 65%;
+	margin: 0px;
+	margin-right: 19px;
+	height: 80px;
+	float: left;
 }
 
 #champ_title {
-        background-color: black;
-        color: yellow;
-        width: 75%;
-        margin: 0px;
-        height: 40px;
-        float: left;
+	background-color: black;
+	color: yellow;
+	width: 65%;
+	margin: 0px;
+	margin-bottom: 5px;
+	height: 40px;
+	float: left;
 }
