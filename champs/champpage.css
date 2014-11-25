@@ -53,13 +53,13 @@ body {
 
 #lore_box {
 	background-color: #A3A375;
+	margin-top: 175;
 	height: 435;
 	width: 945;
 }
 
 #champ_tabs {
 	background-color: blue;
-	height: 150px;
 }
 
 #champ_lore {
