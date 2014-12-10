@@ -64,6 +64,7 @@ body {
 #champ_tabs {
 	height: 40px;
 	margin-left: 50px;
+	margin-bottom: 15px;
 }
 
 #champ_tabs, h3 {
