@@ -54,9 +54,12 @@ body {
 #lore_box {
 	clear: left;
 	margin-right: 325px;
+	border: 2px solid;
+	border-radius: 20px;
 }
 
 #champ_tabs {
+	margin-left: 50px;
 }
 
 #champ_lore {
@@ -67,6 +70,6 @@ body {
 	height: 350px;
 	overflow: auto;
 	border: 2px solid;
-	border-radius: 20px;
+	border-radius: 10px;
 	background-color: white;
 }
