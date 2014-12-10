@@ -29,6 +29,7 @@
 		<div id="lore_box">
 			<div id="champ_tabs">
 				<h3>Lore</h3>
+				<h3>Stats</h3>
 			</div>
 			<div id="champ_lore">
 				<?php print($champdata["lore"]); ?> 
