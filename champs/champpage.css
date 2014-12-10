@@ -62,7 +62,8 @@ body {
 }
 
 #champ_tabs {
-	padding: 20px;
+	height: 40px;
+	margin: 20px;
 	margin-left: 50px;
 }
 
