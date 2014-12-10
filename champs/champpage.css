@@ -53,6 +53,7 @@ body {
 
 #lore_box {
 	clear: left;
+	height: 419px;
 	margin-right: 325px;
 	border: 2px solid;
 	border-radius: 15px;
