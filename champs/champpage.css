@@ -55,7 +55,8 @@ body {
 	clear: left;
 	margin-right: 325px;
 	border: 2px solid;
-	border-radius: 20px;
+	border-radius: 15px;
+	padding: 30px;
 }
 
 #champ_tabs {
