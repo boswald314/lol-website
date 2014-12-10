@@ -54,6 +54,8 @@ body {
 #lore_box {
 	clear: left;
 	margin-right: 325px;
+	border: 2px solid;
+	border-radius: 20px;
 }
 
 #champ_tabs {
