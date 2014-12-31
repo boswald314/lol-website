@@ -25,6 +25,10 @@ a, a:visited {
 	outline:none;
 }
 
+#main{
+	border-radius: 45px;
+}
+
 a:hover{
 	text-decoration:underline;
 }
@@ -33,7 +37,6 @@ a:hover{
 	width:800px;
 	margin:20px auto;
 	text-align:left;
-	border-radius: 45px;
 }
 
 .container{
